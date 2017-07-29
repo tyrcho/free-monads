@@ -1,3 +1,5 @@
+package db
+
 import java.sql.Connection
 
 case class DB[A](g: Connection => A) {

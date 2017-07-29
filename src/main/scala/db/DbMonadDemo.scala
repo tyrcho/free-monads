@@ -1,7 +1,9 @@
+package db
+
 import java.sql.Connection
 
-import ConnectionProvider._
-import DB._
+import db.ConnectionProvider.{mysqlProdDB, sqliteTestDB}
+import db.DB.{pureDB, _}
 
 import scala.io.StdIn.readLine
 
